@@ -13,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
  
 class PyUnitSeleniumTestCase(unittest.TestCase):
     def setUp(self):
-        user_data_dir = 'C:/Users/blah/'
+        user_data_dir = 'C:/Users/blah/AppData/Local/Google/Chrome/'
         extension_path = 'Extensions/idgpnmonknjnojddfkpgkljpfnnfcklj/2.2.5_0'
         #new firefox session
         self.options = Options()
